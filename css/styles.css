@@ -1,0 +1,215 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather";
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento";
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: "Montserrat";
+  margin-bottom: 10px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  color: #66BFBF;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #ff0000 10px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+  background-color: transparent;
+}
+
+a {
+  color: #11999E;
+  font-family: "Montserrat";
+  /* margin: 10px 20px; */
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+a:hover {
+  /* color: #EAF6F6; */
+  color: #66BFBF;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 50px;
+}
+
+.middle-container {
+  margin: 50px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+}
+
+.skill-row {
+  /* width: 50%; */
+  margin: 100px auto 100px auto;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.code-img {
+  margin-bottom: 2rem;
+}
+
+.chilli-img {
+  margin-bottom: 2rem;
+}
+
+.container-fluid{
+  padding: 2% 15% 0 15%;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.nav-link:hover {
+  color: #30e3cb;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: lightgreen;
+  box-shadow: none !important;
+}
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+.btnn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* ======================== */
+
+
+.col-md-3{
+  background: #ff9b00;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.contact{
+  padding: 4%;
+  height: 400px;
+}
+
+.contact-info{
+  margin-top:10%;
+}
+.contact-info img{
+  margin-bottom: 15%;
+}
+.contact-info h2{
+  margin-bottom: 10%;
+}
+.col-md-9{
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+  font-weight:600;
+}
+.contact-form button{
+  margin-top: 5px;
+  background: #25274d;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+.contact-form button:focus{
+  box-shadow:none;
+}
+
+

@@ -1,0 +1,247 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather";
+  }
+  
+  h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento";
+  }
+  
+  h2 {
+    color: #66BFBF;
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    color: #11999E;
+    font-family: "Montserrat";
+    margin-bottom: 10px;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    color: #66BFBF;
+  }
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  p {
+    line-height: 2;
+  }
+  
+  hr {
+    border: dotted #ff0000 10px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+    background-color: transparent;
+  }
+  
+  a {
+    color: #11999E;
+    font-family: "Montserrat";
+    /* margin: 10px 20px; */
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+  
+  a:hover {
+    /* color: #EAF6F6; */
+    color: #66BFBF;
+  }
+  
+  .top-container {
+    background-color: #E4F9F5;
+    padding-top: 50px;
+  }
+  
+  .middle-container {
+    margin: 10px 0;
+  }
+  
+  .bottom-container {
+    background-color: #66BFBF;
+  }
+  
+  .skill-row {
+    /* width: 50%; */
+    margin: 100px auto 100px auto;
+  }
+  
+  .pro {
+    text-decoration: underline;
+  }
+  
+  .intro {
+    width: 30%;
+    margin: auto;
+  }
+  
+  .contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+  
+  .copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+  
+  .code-img {
+    margin-bottom: 2rem;
+  }
+  
+  .chilli-img {
+    margin-bottom: 2rem;
+  }
+  
+  .container-fluid{
+    padding: 2% 15% 0 15%;
+  }
+  
+  .footer-link:hover {
+    color: #EAF6F6;
+  }
+  
+  .nav-link:hover {
+    color: #30e3cb;
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: lightgreen;
+    box-shadow: none !important;
+  }
+  /* Setting the stroke to green using rgb values (0, 128, 0) */
+  
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url(
+  "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  
+  .btnn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btnn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
+
+
+  /* ============================================ */
+
+
+
+
+  
+
+
+.profile-card-2 {
+    max-width: 300px;
+    max-height: 450px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.profile-card-2 img {
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+}
+
+.profile-card-2:hover img {
+    filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
+
