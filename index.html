@@ -58,7 +58,12 @@
             
             <div class="title-text col-lg-12">
                 <h1>I'm Abi.</h1>
-                <h2>a <span class="pro">web</span> developer.</h2>
+                <h2 id="intro">a <span class="pro">web</span> developer.</h2>
+                <script>
+                  document.getElementById("intro").innerHTML = 
+                  "a <em>web</em>site developer";
+                </script>
+
             </div>
             
             <!-- <div class="col-lg-4">
@@ -91,7 +96,17 @@
             <div class="profile col-lg-12">
 
                 <img class="img-fluid" src="images/cyber2077.jpg" alt="angela-profile-img" style="margin-bottom: 1rem; border-radius: 50%; height: 180px; width: 320px;">
-                <h2>Hello.</h2>
+                <h2 onmouseover="mOver(this)" onmouseout="mOut(this)">Hello.</h2>
+                <script>
+                  function mOver(obj) {
+                    obj.innerHTML = "How Are You Today ?"
+                  }
+                  
+                  function mOut(obj) {
+                    obj.innerHTML = "Hello."
+                  }
+                  </script>
+
                 <p class="intro">I am a Web Developer. I ❤️ coffee.</p>
         
             </div>
@@ -154,7 +169,13 @@
 
             <div class="contact-me col-lg-12">
 
-                <h2>Get In Touch</h2>
+                <h2  onclick="changeText(this)">Get In Touch</h2>
+                <script>
+                  function changeText(id) {
+                    id.innerHTML = "Have A Good Day Reader !";
+                  }
+                  </script>
+
                 <h3>If you love hot wings as much as I do.</h3>
                 <p class="contact-message">Love hot wings as much as I do? Let's talk about how awesome they are! We can code while we eat hot wings!</p>
 
@@ -206,7 +227,13 @@
                 </div>
                 <div class="form-group" >        
                   <div class="col-sm-offset-2 col-sm-10">
-                  <button type="submit" class="btn btn-default">Submit</button>
+                  <button type="submit" class="btn btn-default" id="myBtn">Submit</button>
+                  <script>
+                    document.getElementById("myBtn").addEventListener("click", function() {
+                      alert("Your Message Has Been Sent Successfully");
+                    });
+                    </script>
+
                   </div>
                 </div>
               </div>
